@@ -10,13 +10,23 @@ table 50100 Practice
 
 
         }
+        field(2; Class; Text[100])
+        {
+            DataClassification = ToBeClassified;
+
+
+        }
 
     }
 
+    keys
+    {
+        key(Pk1; "Result")
+        {
+            Clustered = true;
+        }
+    }
 
 
-
-    var
-        cust: Record Customer;
 
 }
