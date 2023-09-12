@@ -16,6 +16,11 @@ page 50100 Practice
                     ApplicationArea = All;
 
                 }
+                field(Class; Rec.Class)
+                {
+                    ApplicationArea = all;
+                }
+
             }
         }
     }

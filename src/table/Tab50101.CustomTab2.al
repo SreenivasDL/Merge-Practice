@@ -29,6 +29,12 @@ table 50101 CustomTab2
             DataClassification = ToBeClassified;
 
         }
+        field(6; "Father's age"; Text[100])
+        {
+            DataClassification = ToBeClassified;
+
+
+        }
     }
 
     keys

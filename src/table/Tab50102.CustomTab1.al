@@ -36,9 +36,9 @@ table 50102 CustomTab1
         field(7; b; Integer)
         {
             DataClassification = ToBeClassified;
+
         }
     }
-
     keys
     {
         key(PK; SlNo)
