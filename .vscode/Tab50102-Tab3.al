@@ -29,6 +29,12 @@ table 50102 CustomTab1
         {
             DataClassification = ToBeClassified;
         }
+        field(6; City; Text[100])
+        {
+            DataClassification = ToBeClassified;
+
+
+        }
     }
 
     keys
