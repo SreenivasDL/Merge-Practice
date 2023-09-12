@@ -11,12 +11,20 @@ table 50100 Practice
 
         }
 
+        field(2; Name; Text[20])
+        {
+            DataClassification = ToBeClassified;
+        }
+        field(3; "No."; Code[20])
+        {
+            DataClassification = ToBeClassified;
+        }
+
     }
 
 
 
 
-    var
-        cust: Record Customer;
+
 
 }
